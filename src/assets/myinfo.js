@@ -31,7 +31,8 @@ const projects = [
     environment: ["XAMPP (Local development)", "VS  Code"],
     sourceCode: "https://github.com/Kalyana-kumar-k/fruit-festia",
     livePreview: "https://fruitfestia.infinityfreeapp.com/",
-    image: "../../assets/ProjectsImg/fruitfestia.png",
+    image: new URL("../assets/ProjectsImg/fruitfestia.png", import.meta.url)
+      .href,
   },
   {
     name: "Project 2",
@@ -41,7 +42,10 @@ const projects = [
     environment: ["XAMPP (Local development)", "VS  Code"],
     sourceCode: "http://github.com/kalyana-kumar-k/usermanagement-php",
     livePreview: "https://usermanagementphp.infinityfreeapp.com/",
-    image: "../../assets/ProjectsImg/usermanagementCRUD.png",
+    image: new URL(
+      "../assets/ProjectsImg/usermanagementCRUD.png",
+      import.meta.url,
+    ).href,
   },
   {
     name: "Project 3",
@@ -50,7 +54,8 @@ const projects = [
     stack: ["React.js", "Vite", "JavaScript", "Redux Toolkit", "React Router"],
     sourceCode: "https://github.com/Kalyana-kumar-k/E-commerce-React",
     livePreview: "https://kalyana-kumar-k.github.io/E-commerce-React/",
-    image: "../../assets/ProjectsImg/ECom-react1.png",
+    image: new URL("../assets/ProjectsImg/ECom-react1.png", import.meta.url)
+      .href,
   },
   {
     name: "Project 4",
@@ -58,8 +63,8 @@ const projects = [
       "Developed a responsive single-page portfolio using React, Vite, and React-Bootstrap, leveraging React Context API for global state management (dark/light theme switching) and a modular, component-based architecture.",
     stack: ["React.js", "Vite", "JavaScript", "React  bootstrap"],
     sourceCode: "https://github.com/Kalyana-kumar-k/ReactPortfolio",
-    livePreview: "../../assets/ProjectsImg/portfolio.png",
-    image: "",
+    livePreview: "https://kalyana-kumar-k.github.io/ReactPortfolio/",
+    image: new URL("../assets/ProjectsImg/portfolio.png", import.meta.url).href,
   },
 ];
 
