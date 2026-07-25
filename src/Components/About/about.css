@@ -1,0 +1,57 @@
+#about {
+  display: grid;
+  place-items: center;
+  margin-top: 5em;
+  color: var(--clr-fg);
+}
+
+.about_role {
+  color: var(--clr-fg-alt);
+}
+.about_name {
+  color: var(--clr-primary);
+}
+
+.about_desc {
+  padding: 10px;
+  width: 50%;
+}
+
+.about_links {
+  display: flex;
+  gap: 1.5em;
+}
+
+.github_link,
+.linkedin_link {
+  color: var(--clr-fg-alt);
+  font-size: 25px;
+}
+
+.about_picture {
+  width: 180px;
+  height: 180px;
+  border-radius: 70%;
+  object-fit: cover;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.about_picture:not([src]),
+img[src=""],
+img[src="null"] {
+  display: none !important;
+}
+
+@media (max-width: 575px) {
+  .app #about {
+    margin-top: 2em;
+  }
+  .about_desc {
+    width: 100%;
+  }
+  .about_picture {
+    width: 80px;
+    height: 90px;
+  }
+}

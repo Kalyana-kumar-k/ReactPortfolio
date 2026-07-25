@@ -1,0 +1,13 @@
+.footer {
+  margin-top: 5em;
+  color: var(--clr-fg-alt);
+  box-shadow: var(--shadow);
+}
+
+.footer_link{
+  color:var(--clr-primary);
+}
+
+.active_dot {
+  color: var(--color-dot-active);
+}

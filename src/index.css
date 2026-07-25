@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  color: var(--clr-fg-alt);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hovering {
+  padding: 0 0 0.3em 0;
+  position: relative;
+}
+
+.hovering:hover {
+  color: var(--clr-primary);
+}
+
+.hovering::before {
+  content: "";
+  display: inline;
+  width: 0%;
+  height: 0.2em;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--clr-primary);
+  transition: width 0.2s ease-in;
+}
+
+.hovering:hover::before,
+.hovering:focus::before {
+  width: 100%;
+}
+
+/* Buttons resume and email */
+.buttons {
+  border: 2px solid var(--clr-primary);
+  color: var(--clr-primary);
+  display: inline-block;
+  text-transform: lowercase;
+  padding: 0.4em 1.4em;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s ease-in;
+  z-index: 0;
+}
+
+.buttons::before {
+  content: "";
+  background-color: var(--clr-primary);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  transition: width 0.2s ease-in;
+}
+
+.buttons:hover::before,
+.buttons:focus::before {
+  width: 100%;
+}
+
+.buttons:hover,
+.buttons:focus {
+  color: var(--clr-bg);
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+  }
+  .buttons {
+    padding: 0.4em 1.2em;
+  }
+}

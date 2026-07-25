@@ -1,0 +1,36 @@
+.skills {
+  margin-top: 4em;
+}
+
+.skills_title {
+  font-weight: 800;
+  text-align: center;
+}
+
+.skills_list {
+  max-width: 450px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill_item {
+  margin: 0.5em;
+  display: block;
+  cursor: pointer;
+  padding: 0.8em 1.4em;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: lowercase;
+  transition: transform 0.2s ease-in-out;
+  background-color: var(--clr-bg-alt);
+  color: var(--clr-fg-alt);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.skill_item:hover {
+  transform: translateY(-4px);
+}

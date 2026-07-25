@@ -1,0 +1,28 @@
+#navbar_tab {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.theme_toggle_icon {
+  margin-bottom: 15px;
+  margin-right: 20px;
+  font-size: 25px;
+  color: var(--clr-fg-alt);
+  transition: transform 0.2s ease-in-out;
+}
+
+.theme_toggle_icon:hover {
+  color: var(--clr-primary);
+}
+
+.theme_toggle_icon:active {
+  transform: translateY(-5px);
+}
+
+#navbar_title {
+  color: var(--clr-primary);
+  font-weight: 700;
+}

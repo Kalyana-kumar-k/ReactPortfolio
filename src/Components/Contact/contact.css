@@ -1,0 +1,10 @@
+#contact {
+  margin-top: 4em;
+  display:grid;
+  place-items: center;
+}
+
+.contact_title {
+  font-weight: 800;
+  margin-bottom: 1em;
+}
