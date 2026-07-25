@@ -12,7 +12,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div key={index} className="project_box">
             <h3 className="text-center project_name">{project.name}</h3>
-            <img src={project.image} alt="" className="project_image" />
+            <img src={project.image} alt={project.name} className="project_image" />
             <p className="project_description">{project.description}</p>
             <ul className="project_stack">
               {project.stack.map((stk, index) => (

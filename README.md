@@ -6,8 +6,9 @@ A fast, responsive, single-page personal portfolio website built with **React**,
 
 ## Live Demo
 
-- **Live Site:** [Insert your deployment link here, e.g., Netlify / Vercel]
-- **Repository:** [https://github.com/Kalyana-kumar-k/ReactPortfolio]
+- **Live Site:** https://kalyana-kumar-k.github.io/ReactPortfolio/
+
+- **Repository:** https://github.com/Kalyana-kumar-k/ReactPortfolio
 
 ---
 

@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: "",
+  homepage: "https://kalyana-kumar-k.github.io/ReactPortfolio/",
   title: "Kalyan.JS",
 };
 
@@ -31,7 +31,7 @@ const projects = [
     environment: ["XAMPP (Local development)", "VS  Code"],
     sourceCode: "https://github.com/Kalyana-kumar-k/fruit-festia",
     livePreview: "https://fruitfestia.infinityfreeapp.com/",
-    image: "https://i.ibb.co/MDLVsRxG/Screenshot-2026-07-20-114119-1.png",
+    image: "../../assets/ProjectsImg/fruitfestia.png",
   },
   {
     name: "Project 2",
@@ -41,7 +41,7 @@ const projects = [
     environment: ["XAMPP (Local development)", "VS  Code"],
     sourceCode: "http://github.com/kalyana-kumar-k/usermanagement-php",
     livePreview: "https://usermanagementphp.infinityfreeapp.com/",
-    image: "https://i.ibb.co/gLGjCbk2/Screenshot-2026-07-20-114258.png",
+    image: "../../assets/ProjectsImg/usermanagementCRUD.png",
   },
   {
     name: "Project 3",
@@ -50,7 +50,7 @@ const projects = [
     stack: ["React.js", "Vite", "JavaScript", "Redux Toolkit", "React Router"],
     sourceCode: "https://github.com/Kalyana-kumar-k/E-commerce-React",
     livePreview: "https://kalyana-kumar-k.github.io/E-commerce-React/",
-    image: "https://i.ibb.co/p6M2SfkS/Screenshot-2026-07-20-114408.png",
+    image: "../../assets/ProjectsImg/ECom-react1.png",
   },
   {
     name: "Project 4",
@@ -58,8 +58,8 @@ const projects = [
       "Developed a responsive single-page portfolio using React, Vite, and React-Bootstrap, leveraging React Context API for global state management (dark/light theme switching) and a modular, component-based architecture.",
     stack: ["React.js", "Vite", "JavaScript", "React  bootstrap"],
     sourceCode: "https://github.com/Kalyana-kumar-k/ReactPortfolio",
-    livePreview: "",
-    image: "https://i.ibb.co/zTBdHJBV/portfolio.png",
+    livePreview: "../../assets/ProjectsImg/portfolio.png",
+    image: "",
   },
 ];
 
