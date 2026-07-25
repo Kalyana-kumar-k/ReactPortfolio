@@ -20,7 +20,7 @@ const Header = () => {
         data-bs-theme={theme === "light" ? "light" : "dark"}
       >
         <Container>
-          <button onClick={toggleTheme} className="theme_toggle_icon hovering">
+          <button onClick={toggleTheme} className="theme_toggle_icon">
             {theme === "light" ? <MdDarkMode /> : <MdLightMode />}
           </button>
           <Navbar.Brand
