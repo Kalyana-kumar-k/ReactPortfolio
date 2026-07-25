@@ -31,7 +31,7 @@ const projects = [
     environment: ["XAMPP (Local development)", "VS  Code"],
     sourceCode: "https://github.com/Kalyana-kumar-k/fruit-festia",
     livePreview: "https://fruitfestia.infinityfreeapp.com/",
-    image: "/public/ProjectsImg/fruitfestia.png",
+    image: "https://i.ibb.co/MDLVsRxG/Screenshot-2026-07-20-114119-1.png",
   },
   {
     name: "Project 2",
@@ -41,7 +41,7 @@ const projects = [
     environment: ["XAMPP (Local development)", "VS  Code"],
     sourceCode: "http://github.com/kalyana-kumar-k/usermanagement-php",
     livePreview: "https://usermanagementphp.infinityfreeapp.com/",
-    image: "/public/ProjectsImg/usermanagementCRUD.png",
+    image: "https://i.ibb.co/gLGjCbk2/Screenshot-2026-07-20-114258.png",
   },
   {
     name: "Project 3",
@@ -50,7 +50,7 @@ const projects = [
     stack: ["React.js", "Vite", "JavaScript", "Redux Toolkit", "React Router"],
     sourceCode: "https://github.com/Kalyana-kumar-k/E-commerce-React",
     livePreview: "https://kalyana-kumar-k.github.io/E-commerce-React/",
-    image: "/public/ProjectsImg/ECom-react1.png",
+    image: "https://i.ibb.co/p6M2SfkS/Screenshot-2026-07-20-114408.png",
   },
   {
     name: "Project 4",
@@ -59,7 +59,7 @@ const projects = [
     stack: ["React.js", "Vite", "JavaScript", "React  bootstrap"],
     sourceCode: "https://github.com/Kalyana-kumar-k/ReactPortfolio",
     livePreview: "",
-    image: "/public/ProjectsImg/portfolio.png",
+    image: "https://i.ibb.co/zTBdHJBV/portfolio.png",
   },
 ];
 
