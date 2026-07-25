@@ -13,7 +13,7 @@ const Projects = () => {
           <div key={index} className="project_box">
             <h3 className="text-center project_name">{project.name}</h3>
             <img
-              src={`${import.meta.env.BASE_URL}${project.image}`}
+              src={project.image}
               alt={project.name}
               className="project_image"
             />
